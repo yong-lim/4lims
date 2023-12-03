@@ -1,0 +1,41 @@
+title: Yong & Wendy
+baseurl: ""
+url: ""
+
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+permalink: pretty
+
+collections:
+  pages:
+    output: true
+    permalink: /pages/:name
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+
+nav:
+  - title: "About Us"
+    url: /pages/about
+

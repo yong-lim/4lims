@@ -1,0 +1,11 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.2/alpine.js" integrity="sha512-No22QdEJ4zlXvdQDpm6oeXcjwajpNxvnstx6NEU/5qZFysa5gsgj/bSfAFpSc9Za5LjbgQLRXyCeY53aWmk8ZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Back To Top Button -->
+<div x-data="initBackToTop()" x-on:scroll.window="scroll($event)" @click="goTop($event)" 
+    id="fresh_backtotop">
+    <a href="javascript:" :class="{
+        'visible': scrolled,
+        '': !scrolled
+    }">&#8679;
+    </a>
+</div>

@@ -1,0 +1,35 @@
+ #back2top {
+   position:fixed;
+   right:25px;
+   bottom:22px;
+   cursor:pointer;
+   width:37px;
+   height:37px;
+   background-color:#3498db;
+   text-indent:-9999px;
+   display:none;
+   -webkit-border-radius:60px;
+   -moz-border-radius:60px;
+   border-radius:60px;
+   z-index: 171;
+}
+#back2top span {
+   position:absolute;
+   top:50%;
+   left:50%;
+   margin-left:-8px;
+   margin-top:-12px;
+   height:0;
+   width:0;
+   border:8px solid transparent;
+   border-bottom-color:#ffffff;
+}
+#back2top:hover {
+   background-color:#e74c3c;
+   color:#3498db;
+   opacity:1;filter:"alpha(opacity=100)";
+   -ms-filter:"alpha(opacity=100)";
+}
+#back2top span:hover {
+   border-bottom-color:green;
+}

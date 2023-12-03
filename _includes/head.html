@@ -1,0 +1,21 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> {{ site.title }} </title>
+
+  {% seo %}
+
+  <style type="text/css">
+    {% capture include_to_scssify %}
+      {% include inline.scss %}
+    {% endcapture %}
+      {{ include_to_scssify | scssify }}
+  </style>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/arctica.css">
+
+  <script src="{{ site.baseurl }}/assets/js/back2top.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" media="print" onload="this.media='all'"/>
+</head>
