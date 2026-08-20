@@ -9,6 +9,9 @@ sass:
 permalink: pretty
 
 collections:
+  posts:
+    output: true
+    permalink: /post/:slug
   pages:
     output: true
     permalink: /pages/:name
