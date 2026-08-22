@@ -26,7 +26,7 @@ import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0
   --code-font: "Source Code Pro", monospace;
   --body-bg: #eceff4;
   --body-color: #2e3440;
-  --secondary-body-bg: #e5e9f0;
+  --secondary-body-bg: #fff;
   --secondary-color: #3b4252;
   --heading-color: #434c5e;
   --code-color: var(--body-color);
@@ -58,9 +58,9 @@ import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0
   tbody tr:nth-child(odd) th {
     background-color: var(--secondary-body-bg);
   }
-  .post {
+  /*.post {
     background-color: var(--secondary-body-bg);
-  }
+  }*/
 }
 
 /** Global resets */
@@ -254,6 +254,7 @@ tbody tr:nth-child(odd) th {
 .page {
   position: relative;
   margin-bottom: 3rem;
+  background-color: var(--secondary-body-bg);
 }
 
 .post-title,
