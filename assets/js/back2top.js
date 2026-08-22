@@ -26,4 +26,3 @@ function initBackToTop() {
 };
 
 window.initBackToTop = initBackToTop;
-
