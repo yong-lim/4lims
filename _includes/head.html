@@ -6,14 +6,16 @@
 
   {% seo %}
 
-  <style type="text/css">
+  <!--<style type="text/css">
     {% capture include_to_scssify %}
       {% include inline.scss %}
     {% endcapture %}
       {{ include_to_scssify | scssify }}
   </style>
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/arctica.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/arctica.css">-->
+
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
   <script src="{{ site.baseurl }}/assets/js/back2top.js"></script>
 
