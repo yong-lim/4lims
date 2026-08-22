@@ -21,6 +21,8 @@ import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0
   --gutter: 1.5rem;
   --sans-font: "Inter var", sans-serif;
   --serif-font: "Inter", serif;
+  --header-font: "Quicksand", sans-serif;
+  --header-font-weight: 500;
   --code-font: "Source Code Pro", monospace;
   --body-bg: #eceff4;
   --body-color: #2e3440;
@@ -99,8 +101,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--sans-font);
-  font-weight: normal;
+  font-family: var(--header-font);
+  font-weight: var(--header-font-weight);
   color: var(--heading-color);
   margin-bottom: 0.5rem;
 }
