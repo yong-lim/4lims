@@ -31,7 +31,7 @@ photo:
     img: rest-stop.jpeg
     cap: "A rest stop during the prayer ride. We usually find small roadside snack places and here the lady made some juice drinks for us, along  with some pot noodle lunches."   
   - thump: met-a-lady-thump.jpg
-    img: met-a-lady.jpg
+    img: met-a-lady.jpeg
     cap: "We met this lady and family who are believers in rural Stung Treng, north west province, during our prayer circle ride."
   - thump: tumble-thump.jpg
     img: tumble.jpg
@@ -43,7 +43,7 @@ photo:
     img: Sekong-river.jpeg
     cap: "Waiting to cross the Sekong river."
   - thump: crossing-Sokeng-thump.jpg
-    img: crossing-Sokeng.jpg
+    img: crossing-Sokeng.jpeg
     cap: "Crossing the river Sekong river in north Cambodia."  
   - thump: "Scott-with-mechanic copy.jpg"
     img: Scott-with-mechanic.jpg
