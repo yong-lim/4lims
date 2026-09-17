@@ -2,7 +2,7 @@
 layout: post
 title: A year of changes and new visions for MMCC
 summary: A year of changes and new visions for Mercy Medical Center Cambodia.
-tags: [pcc]
+tags: [mmc]
 
 folder: 2026-05/
 images: 

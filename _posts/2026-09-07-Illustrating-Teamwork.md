@@ -2,7 +2,7 @@
 layout: post
 title: Illustrating teamwork at the hospital
 summary: It takes a team of many people to deliver the care we strive for at MMCC.
-tags: [pcc]
+tags: [mmc]
 
 folder: 2026-09/
 photo:
