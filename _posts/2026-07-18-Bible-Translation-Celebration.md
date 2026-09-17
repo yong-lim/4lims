@@ -10,7 +10,7 @@ photo1:
     img: Yong+Didi.JPG
     cap: "Me and Didi at the first Bible celebration 10 years ago"
 photo2:
-  - thump: spiritual-formation-thump.JPG
+  - thump: spiritual-formation-thump.jpg
     img: spiritual-formation.jpg
     cap: "Celebrating completion of the spiritual formation"
 ---
