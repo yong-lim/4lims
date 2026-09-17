@@ -48,12 +48,12 @@
 
 .click-to-top.show {
   opacity: 1;
-  /* transform: translateY(0); */
+  // transform: translateY(0);
 }
 
 @media (prefers-color-scheme: dark) {
   .click-to-top:hover {
-    background: #ff5722;
+    // background: #ff5722;
     background: #FFC300;
   }
 }
