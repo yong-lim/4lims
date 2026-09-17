@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h2 class="text-center">{{ page.title }}</h2>
+{% if page.desc %}
+  <center>{{ page.desc }}</center>
+  <br>
+{% endif %}
+<article role="article" class="page-find">
+  {{ content }}
+</article>

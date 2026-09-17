@@ -1,0 +1,10 @@
+- url: /
+  name: Home
+# - url: /search
+#   name: Search
+- url: /notes
+  name: Notes
+# - url: /categories
+#   name: Who's
+# - url: /contact
+#   name: Tell Us

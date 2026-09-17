@@ -1,0 +1,18 @@
+# no version needed since 2020
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    container_name: 4lims
+    working_dir: /srv-jekyll
+    volumes:
+      - .:/srv-jekyll
+    ports:
+      - '5786:5786'
+      - '35786:35786'
+    command: |
+      bundle exec jekyll serve
+      --trace --force_polling
+      --host 0.0.0.0
+      --port 5786
+      --livereload
+      --livereload-port 35786

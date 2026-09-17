@@ -1,0 +1,15 @@
+<article role="article" class="post">
+   {% assign tags = site.tags | sort %}
+   <ul style="column-count: 3; list-style: none;  justify-items: center;">
+      {% for tag in tags %}
+      {% assign tg = tag[0] | replace: " ", "%20" %}
+      {% assign url = "/tag/" | append: tg | append: "/" %}
+      <li>
+         <a href="/tag/{{ tag[0] }}/"
+            {% if page.url == url %}class="tag-current"{% endif %}>
+            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+         </a>
+      </li>
+      {% endfor %}
+   </ul>
+</article>

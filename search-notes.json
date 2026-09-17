@@ -1,0 +1,14 @@
+---
+layout: none
+---
+[
+  {% for note in site.notes %}
+    {
+      "title"    : "{{ note.title | escape }}",
+      "tags"     : "{{ note.tags | join: ', ' }}",
+      "url"      : "{{ note.url | relative_url }}",
+      "summary"  : "{{ note.summary | strip_html | strip_newlines | escape }}",
+      "content"  : {{ note.content | strip_html | strip_newlines | escape | jsonify }}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

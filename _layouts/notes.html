@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<div class="grid">
+
+  {% for note in site.notes reversed %}
+
+  <article role="article" class="card">
+    <div class="meta">
+      <a href="{{ site.baseurl }}{{ note.url }}">
+        <h3>{{ note.title }}</h3>
+      </a>
+      <p>{{ note.summary }}</p>
+        <time class="date" datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%Y" }} &middot; {{ note.category }}</time>
+    </div>
+  </article>
+
+  {% endfor %}
+
+</div>

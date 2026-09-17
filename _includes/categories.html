@@ -1,0 +1,31 @@
+{% assign all_categories = '' | split: '' %}
+{% for note in site.notes %}
+  {% for category in note.categories %}
+    {% unless all_categories contains category %}
+      {% assign all_categories = all_categories | push: category %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign all_categories = all_categories | sort %}
+
+<article role="article" class="post">
+  <ul style="column-count: 3; list-style: none; justify-items: center;">
+    {% for category in all_categories %}
+      {% assign tg = category | replace: " ", "%20" %}
+      {% assign count = 0 %}
+      {% for note in site.notes %}
+        {% if note.categories contains category %}
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% assign url = "/category/" | append: category | append: "/" %}
+      <li>
+        <a href="{{ url }}"
+           {% if page.url == url %}class="tag-current"{% endif %}
+           class="{% if page.url == {{ url }} %}active{% endif %}" >
+           {{ category | replace:'-', ' ' }} ({{ count }})
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

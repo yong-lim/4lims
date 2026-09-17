@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+<input type="input" id="search-input" class="search-input" placeholder="{{ site.data.text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" autofocus>
+
+<div id="results-container"></div>
+
+<!-- Configuration -->
+<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
+<script>
+let queryResults =
+  '<article role="article" class="card-search">
+    <a href="{url}?query={query}" title="{desc}">
+      <div class="meta">
+        <h2>{title}</h2>
+      </div>
+    </a>
+  </article>';
+
+window.simpleJekyllSearch = new SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '{{ site.baseurl }}/search.json',
+  searchResultTemplate: queryResults,
+  noResultsText: 'No results found',
+  limit: 10,
+  fuzzy: false,
+  exclude: ['Welcome']
+})
+</script>
