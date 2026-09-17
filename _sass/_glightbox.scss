@@ -123,7 +123,7 @@
 }
 
 .gslide iframe,
-    .gslide video {
+.gslide video {
   outline: none !important;
   border: none;
   min-height: 165px;
@@ -530,8 +530,8 @@ iframe.wait-autoplay {
 }
 
 .glightbox-clean .gprev,
-    .glightbox-clean .gnext,
-    .glightbox-clean .gclose {
+.glightbox-clean .gnext,
+.glightbox-clean .gclose {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 4px;
 }
@@ -903,7 +903,7 @@ iframe.wait-autoplay {
     box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.65);
   }
   .glightbox-clean .description-left .gdesc-inner,
-.glightbox-clean .description-right .gdesc-inner {
+  .glightbox-clean .description-right .gdesc-inner {
     position: absolute;
     height: 100%;
     overflow-y: auto;
@@ -914,8 +914,8 @@ iframe.wait-autoplay {
     background-color: rgba(0, 0, 0, 0.32);
   }
   .glightbox-clean .gprev:hover,
-.glightbox-clean .gnext:hover,
-.glightbox-clean .gclose:hover {
+  .glightbox-clean .gnext:hover,
+  .glightbox-clean .gclose:hover {
     background-color: rgba(0, 0, 0, 0.7);
   }
   .glightbox-clean .gprev {
