@@ -14,14 +14,6 @@
 .text-center {
   text-align: center;
 }
-.card {
-  display: flex;
-  min-height: 8rem;
-  align-items: left;
-  justify-content: left;
-  position: relative;
-  flex: 1 1 10rem;
-}
 
 .h-italic {
   font-family: "Lora";
@@ -63,6 +55,11 @@
 // .card:nth-child(7n+2) { background-color: #A696D0; }
 
 .card {
+  min-height: 8rem;
+  align-items: left;
+  justify-content: left;
+  position: relative;
+  flex: 1 1 10rem;
   //min-height: 100%;
   border-radius: 10px;
   background: white;
