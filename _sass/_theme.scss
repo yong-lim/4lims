@@ -20,12 +20,13 @@ import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0
 
 :root,
 .light:root {
+  --font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
   --gutter: 1.5rem;
   --sans-font: "Inter", sans-serif;
-  --serif-font: "Inter", serif;
   --header-font: "Quicksand", sans-serif;
   --header-font-weight: 500;
-  --code-font: "Source Code Pro", monospace;
+  --code-font: "BM Plex Mono", monospace;
   --body-bg: #f1eed9;
   --body-color: #2e3440;
   --secondary-body-bg: #edf2f7;
@@ -97,7 +98,7 @@ body {
 
 html {
   // box-sizing: border-box;
-  font-family: var(--serif-font);
+  font-family: var(-font-sans);
   font-size: 16px;
   overflow: scroll;
   overflow-x: hidden;
