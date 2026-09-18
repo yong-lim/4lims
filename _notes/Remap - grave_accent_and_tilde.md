@@ -7,7 +7,7 @@ date: 2026-08-28
 ---
 The original instructional web page is [here](https://konkit.tech/blog/2025-03-17-mac-os-key-mapping/). I'm making a copy of the instructions for safekeeping. Please give credit to the original author in the link.
 
-#### **Start @ Option 2: A temporary command-line solution**
+### Start @ Option 2: A temporary command-line solution
 
 To create a key mapping that lasts until the next reboot, use the following command in Terminal.app:
 
