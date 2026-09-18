@@ -10,34 +10,33 @@ layout: default
   {{ content }}
 </article>
 
-
-
 <script>
-  document
-    .querySelectorAll('.post pre.highlight')
-    .forEach(function (pre) {
-      var button = document.createElement('button');
-      var copyText = 'Copy';
-      button.type = 'button';
-      button.ariaLabel = 'Copy code to clipboard';
-      button.innerText = copyText;
-      console.log('add listener');
-      button.addEventListener('click', function () {
-        console.log('after click');
-        var code = pre.querySelector('code').innerText;
-        try {
-          code = code.trimEnd();
-        } catch (e) {
-          code = code.trim();
-        }
-        console.log(code);
-        window.navigator.clipboard.writeText(code);
-        button.innerText = 'Copied';
-        setTimeout(function () {
-          button.blur();
-          button.innerText = copyText;
-        }, 4000);
-      });
-      pre.append(button);
+(function() {
+  document.querySelectorAll('div.highlighter-rouge').forEach(function(block) {
+    block.style.position = 'relative';
+
+    var langClass = Array.from(block.classList).find(function(c) {
+      return c.indexOf('language-') === 0 && c !== 'language-plaintext';
     });
+    if (langClass) {
+      var label = document.createElement('span');
+      label.className = 'code-lang';
+      label.textContent = langClass.replace('language-', '');
+      block.appendChild(label);
+    }
+
+    var btn = document.createElement('button');
+    btn.className = 'code-copy';
+    btn.setAttribute('aria-label', 'Copy code to clipboard');
+    btn.textContent = 'copy';
+    btn.addEventListener('click', function() {
+      var code = block.querySelector('code');
+      navigator.clipboard.writeText(code.innerText).then(function() {
+        btn.textContent = 'copied!';
+        setTimeout(function() { btn.textContent = 'copy'; }, 2000);
+      });
+    });
+    block.appendChild(btn);
+  });
+})();
 </script>
