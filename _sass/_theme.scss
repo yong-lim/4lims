@@ -35,9 +35,12 @@ import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0
   --code-bg: #d8dee9;
   --hr-color: #81a1c1;
   --link-color: #88c0d0;
-  --link-color-hover: rgba(136, 192, 208, 0.5);
+  --link-color-hover: #0969da;
   --blockquote-border: #5e81ac;
   --blockquote-color: rgba(94, 129, 172, 0.75);
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,7 +54,8 @@ import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0
     --code-bg: #4c566a;
     --hr-color: #81a1c1;
     --link-color: #88c0d0;
-    --link-color-hover: rgba(136, 192, 208, 0.25);
+    // --link-color-hover: rgba(136, 192, 208, 0.25);
+    --link-color-hover: oklch(68.7% .208 38.8);
     --blockquote-border: #8fbcbb;
     --blockquote-color: rgba(143, 188, 187, 0.75);
   }
@@ -391,6 +395,56 @@ nav {
 
 /** Code */
 
+div.highlighter-rouge {
+  position: relative;
+}
+div.highlighter-rouge pre code, pre code.highlighter-rouge {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+// Language label, derived from rouge's language-* class via JS (see code_copy.html)
+.code-lang {
+  position: absolute;
+  top: 0.5em;
+  left: 0.75em;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--text-secondary);
+  opacity: 0.7;
+  user-select: none;
+  pointer-events: none;
+}
+.code-copy {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  padding: 0.25em 0.65em;
+  font-size: 0.72rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  color: var(--text-secondary);
+  background-color: var(--body-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+div.highlighter-rouge:hover .code-copy {
+  opacity: 1;
+}
+.code-copy:hover {
+  color: var(--link-color-hover);
+}
+@media screen and (max-width: 600px) {
+  .code-copy {
+    opacity: 1;
+  }
+}
 code,
 pre {
   font-family: var(--code-font);
