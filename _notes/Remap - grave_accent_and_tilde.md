@@ -7,8 +7,7 @@ date: 2026-08-28
 ---
 The original instructional web page is [here](https://konkit.tech/blog/2025-03-17-mac-os-key-mapping/). I'm making a copy of the instructions for safekeeping. Please give credit to the original author in the link.
 
-### Start @ Option 2: A temporary command-line solution
-
+#### *Start @ Option 2: A temporary command-line solution*
 To create a key mapping that lasts until the next reboot, use the following command in Terminal.app:
 
 ``` bash
@@ -31,13 +30,10 @@ sudo hidutil property --set '{"UserKeyMapping": []}'
 
 The main limitation of this approach is that the mapping only persists until you restart your computer.
 
-#### **Option 3: A persistent command-line solution**
-
+#### *Option 3: A persistent command-line solution*
 To create a key mapping that persists across reboots, we’ll complement Option 2 with LaunchDaemon that would run the command automatically at startup.
 
-<br>
-**Step 1/4: Grant permissions to hidutil**
-
+##### **_Step 1/4: Grant permissions to hidutil_**
 First, you need to give the \`hidutil` command permission to monitor input:
 
 1. Open **System Preferences > Privacy and Security > Input Monitoring**
@@ -46,8 +42,7 @@ First, you need to give the \`hidutil` command permission to monitor input:
 4. Enter **/usr/bin/hidutil** and click **Open**
 5. Make sure the toggle next to **hidutil** is turned on
 
-**Step 2/4: Create a LaunchDaemon configuration file**
-
+##### **_Step 2/4: Create a LaunchDaemon configuration file_**
 Create a configuration file that will run the key mapping command at startup:
 
 ``` bash
@@ -86,9 +81,7 @@ Then copy the content below into the file above:
 
 **Tip:** If you need to map different keys, you can generate the XML more easily using this online tool: [hidutil-generator.netlify.app](https://hidutil-generator.netlify.app/)
 
-<br>
-**Step 3/4: Set permissions and enable the LaunchDaemon**
-
+##### **_Step 3/4: Set permissions and enable the LaunchDaemon_**
 Set the proper permissions for the configuration file:
 
 ``` bash
@@ -109,7 +102,5 @@ sudo launchctl bootout system \
 ```
 "launchctl bootout"  _Tears down a domain or removes a service from a domain._
 
-<br>
-**Step 4/4: Test your configuration**
-
+##### **_Step 4/4: Test your configuration_**
 Restart your Macbook and verify that the plus-minus key now functions as the tilde key.
