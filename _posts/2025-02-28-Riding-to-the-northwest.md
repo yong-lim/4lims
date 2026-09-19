@@ -68,7 +68,6 @@ Thank you for your ongoing journey praying with us here in Cambodia. This newsle
 
 {%- include glight.html 
   images=page.photo
-  folder=page.folder
 -%}
 
 #### For pray and thanksgiving: ####
