@@ -70,7 +70,7 @@ Thank you for your ongoing journey praying with us here in Cambodia. This newsle
   images=page.photo
 -%}
 
-#### For pray and thanksgiving: ####
+#### For pray and thanksgiving:
 - _We’re so thankful for recent visits from friends staying with us. It is a blessing to show hospitality!_
 - _Praise God for those we met during our February prayer circle motorbike ride. Some believers live quite isolated from fellowship and teaching about following Jesus. We pray God blessed our visits to encourage them and we also shared some Bible apps to equip and inspire- may God water and feed their faith._
 - _We give thanks for the December hospital all staff retreat and for the foreign staff retreat in January, which were both excellent times of fellowship and affirmation in the mission of the hospital to heal the sick and proclaim the kingdom of God (Luke 9: 2)._

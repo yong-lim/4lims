@@ -1,7 +1,7 @@
 ---
 layout: post
-title: August/September 2023
-summary: Jacob & Nikki's wedding + Ty's visit
+title: Jacob & Nikki's Wedding + Ty's Visit
+summary: We went to Jacob & Nikki's wedding. And Ty with family came to visit us.
 tags: [family]
 
 folder: 2023-08/
@@ -16,6 +16,7 @@ photos:
 
 >*"‘the Lord has told you what is good, and this is what he requires of you: to do what is right, to love mercy, and to walk humbly with your God."* Micah 6:8
 
+#### *Jacob and Nikki's Wedding*
 We are very thankful for our recent time spent in the US and UK. We started our journey to the US first, beginning with our nephew’s wedding. He and his new bride graduated from a military medical school, got married, bought a new house and started life together. What a summer for them!! In addition to their wedding, we were able to attend three high school graduations of our nephews and nieces. It was a blessed time. Having the chance to be part of life with everyone in our US family.
 
 We then went to the UK, where we were blessed to be able to speak at three churches. We shared about what’s going on in Cambodia, our work and our lives here. Between speaking engagements, we were able to visit Wendy’s dad three separate times. We also were able to visit Wendy’s brothers in Spain for a few days. We are thankful for these times with our family after many months or sometimes years since we have seen them. 
@@ -30,7 +31,7 @@ All the travel and change, with many different beds and sofas, was both tiring a
   images=page.photos
 -%}
 
-### MMC update ###
+#### *MMC update*
 August has seen the implementation of a new electronic medical records system (EMR) at the hospital, after several weeks of preparation and practice by all the staff. This has started well, and we hope it will become easier. Please pray we can adjust our MMC processes and that the host server of this EMR software will be responsive to make changes as we give feedback to make this more user friendly and helpful. For our nurses particularly, please pray we as leaders can support them with using this programme and that they gain confidence and competency with English and digital skills. 
 
 We plan to start the next year of the PG course in September, but before that we will be celebrating a graduation of 4 nurses who completed the 1 year post graduate (PG) course and for 2 senior nurses who have completed leadership training. Pray this will be a joyful celebration, encouraging and inspiring for our team. 
@@ -41,22 +42,22 @@ In case you missed this, here’s a link to the 2022 annual report of MMC- excit
 
 [Mercy Medical Center Cambodia annual report 2022](https://click.mlsend.com/link/c/YT0yMjgxMjcyNDgwNzc1NTM5OTkyJmM9dzBuNCZlPTMzMiZiPTExODkwMTkyNDMmZD1jNmk1cTNs.AccxhgP6gfk-tv8zdoz2JOsCpiIkCGiIeEvTitFZm7k)
 
-### Motorbike things… ###
+#### *Motorbike things*… 
 
 Coming up we will again be officials at a motorbike race. Please pray we can keep building friendships and can take opportunities to share Jesus. During the races, please pray for safety for the riders, stewards and for the crowds who want to get near the action. 
 
-### Cambodia changes ###
+#### *Cambodia changes*
 
 Recent elections passed peacefully and the Prime Minister announced succession planning that his son will become the new prime minister later this month. Please pray for the leaders of Cambodia to act justly, love mercy and walk humbly- may they come to know the Lord as God.  
 
-### Upcoming dates/events: ###
+#### *Upcoming dates/events:*
 
 - August 19 graduation celebration for 4 nurses completing our in-house postgraduate nurse course and 2 nurses completing their in-house leadership training.  
 - August 26-27 Enduro bike race, Kampot
 - September (possibly second or third week) restarting the PG course 
 - September 22-23 MMC retreat for missionary women
 
-### Thanksgiving and prayers: ###
+#### Thanksgiving and prayers:
 
 - *We are thankful for all the time we could spend with family, friends and our church families over the last 3 months in the US and UK. We are thankful also to be home again safely!*
 - *Thanksgiving that Wendy completed and submitted her dissertation for Masters. We pray this research will be used for God’s kingdom purposes and His glory.*

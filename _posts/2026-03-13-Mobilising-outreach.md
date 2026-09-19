@@ -37,7 +37,7 @@ I am in the US to recover from a few health issues - my knee surgery, added to h
 
 Thanks for engaging with us and praying for all that the Lord wants to do here through us. We pray we can demonstrate Jesus’ love and bring blessing through the skills God has given us.  
 
-#### For pray and thanksgiving: ####
+#### For pray and thanksgiving:
 - _Praise God for the recent medical outreach from MMCC to displaced people camps in the north. We are thankful for the working partnerships with one of our referral partners and we pray that God would water and grow the seeds of faith._ 
 - _We thank God for continuing peace between Cambodia and Thailand, please pray for God to bring justice, safety and that they can return to their land._ 
 - _Thank God that Yong is recovering well from recent injuries and knee surgery- pray for continued rehabilitation._

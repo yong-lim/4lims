@@ -13,7 +13,7 @@ photo:
 
 >*"If one part suffers, every part suffers with it; if one part is honored, every part rejoices with it. Now you are the body of Christ, and each one of you is a part of it."* 1 Corinthians 12: 26-27
 
-*Illustrating teamwork at MMCC*…  
+#### *Illustrating teamwork at MMCC*…  
 
 It takes a team of many people to deliver the care we strive for at MMCC. Recently we had a successful surgical outcome for a patient that had a total hysterectomy. We had been managing her Diabetes and high blood pressure for the past 3 years, when during one of her check ups with us our team identified a bladder mass. Within a short time we also confirmed a mass in the wall of her womb.   
 <br>
@@ -36,15 +36,14 @@ She was thankful and full of praise for our hospital team and services, although
   images=page.photo
 %}
 
-*Our former hospital director*…  
+#### *Our former hospital director*…  
 About a month ago, just 24 hours before they planned to return to Cambodia from their home assignment, our previous hospital director Dr Tim experienced a brain bleed. Praise the Lord for the amazing ways God provided for him and the skilled neurological surgeons and expertise he could access in the US. He is continuing to recover although there are ongoing concerns and vulnerability. **Please pray with us for him and for Marjie, his wife.**
 
-<br>
-*Brief updates about the hospital appointment system*… 
+#### *Brief updates about the hospital appointment system*… 
 
 We continue to work on the communications with patients. Now about 40-50% of our patients each day have appointments and we are improving our patient flow. Lately we have seen a lot of very sick patients and we have had more admissions into our inpatient care. Please pray for our communications with patients and that we can take all opportunities that God gives us to share the love of Jesus with them.
 
-#### Thanksgiving and prayers: ####
+#### Thanksgiving and prayers:
 - Praise God for the new shoots of faith that we see among patients we see- including a recent young woman from rural Mondolkiri who had surgery at MMCC to remove a 7kg cyst. Pray for her testimony about the saving power of Jesus within her village!
 
 - Please pray for our communications with patients and that we can take all the opportunities that God gives us to share the love of Jesus with them in word and action. 

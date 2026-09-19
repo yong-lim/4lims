@@ -62,7 +62,7 @@ July 20-24 mission partner and churches conference (Hertfordshire)
 
 July 30 returning home to Cambodia
 
-#### For pray and thanksgiving: ####
+#### For pray and thanksgiving:
 - _We are thankful for a great team conference together in April- encouraging time away together and interesting teaching about reconciliation._ 
 
 - _We give thanks that Yong could join a great prayer ride in early May into the southeast of the country, engaging with many guards at multiple border crossings, including praying through one particularly spiritually oppressive border place. Pray for Jesus, the light of the world, to enter into the darkness here, to bring release, hope, freedom from fear._ 

@@ -50,7 +50,7 @@ After Anlong Veng we headed toward Siem Reap about 30 to 40 km outside of the ci
   images=page.g2
 %}
 
-### Thanksgiving and prayers: ###
+#### Thanksgiving and prayers:
 - *Praise God for the contacts we made during this ride and the people we could pray with and pray for.* 
 - *Pray for the deaf-mute boy we met, that he can access expert assessment to see if there are any interventions that can help. Beyond that, pray for him to be able to learn and go to school.* 
 - *Pray for the young man who needs psychiatric support, pray we can help support that in combination with his local church family in Anlong Veng.* 

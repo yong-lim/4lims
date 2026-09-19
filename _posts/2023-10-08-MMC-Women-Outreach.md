@@ -20,7 +20,7 @@ photos-2:
 
 >*"Do not merely listen to the word, and so deceive yourselves. Do what it says. …whoever looks intently into the perfect law that gives freedom, and continues in it—not forgetting what they have heard, but doing it—they will be blessed in what they do."* James 1:21-25
 
-### Health outreach, testimonies at a bible school ###
+#### *Health outreach, testimonies at a bible school*
 Last month we joined some hospital colleagues who were doing a small health outreach to students and people living locally there. While there we were able to visit some old friends who lead a Bible school. The school is about 2 hours from Phnom Penh. One evening we had a wonderful fellowship, sharing testimonies and singing praise to God. Some of our young doctors from MMCC shared about their journey of faith which was deeply encouraging and inspiring for the other young Bible school students who come from across Cambodia to learn about how to serve as pastors and teachers of the Bible in their local communities after they graduate.
 
 <br>
@@ -29,7 +29,7 @@ Last month we joined some hospital colleagues who were doing a small health outr
   folder=page.folder
 -%}
 
-### MMCC hospital ###
+#### *MMCC hospital*
 We have just started the new cohort of nurses and student nurses in our nurse training on Wednesday afternoons. We were delighted to celebrate the graduations from students in the last cohort, as well as 2 nurses who completed our inhouse leadership training- see some photos!
 
 <br>
@@ -52,19 +52,18 @@ October is the month of the Cambodian Pchum Ben festival, which is a festival to
 *Some pictures from our celebrations in August of our 5 nurses who completed our in-house nurse training course and 2 nurse who completed the leadership course. We have just commenced our new nurse training course this year with 6 students.*
 {: .h-center}
 
-### Prayer Circles Cambodia ###
+#### *Prayer Circles Cambodia*
 
 We are glad and excited to anticipate two forthcoming prayer rides this month, so please pray for the planning and for the actual rides- that God would direct us as we decide where to go, who to stay with, who to speak with and for readiness to speak words that give life. Memorising scripture helps in these circumstances! Pray the riders would be equipped spiritually to serve, to work as a team together and to bring blessings and peace to the different homesteads we are welcomed into. 
 
-### Upcoming dates/events: ###
+#### *Upcoming dates/events:*
 
 - October 13-16 Prayer Circle Ride to north Cambodia (including Anlong Veng) (coincides with Pchum Ben Khmer festival celebrating the dead and appeasing spirits)
 - October 20-24 Prayer Circle Ride to east and north Cambodia
 - Wednesdays- PG nurse training and prayer walks at MMCC hospital
 - And in mid- November InterServe team day gathering
 
-### Thanksgiving and prayers: ###
-
+#### Thanksgiving and prayers:
 - *Pray for our international colleagues at the hospital who are facing treatment for cancer: two colleagues in the past month have been diagnosed with cancer.* 
 - *Pray for the upcoming prayer rides anticipated in October to the north and north east Cambodia.* 
 - *Give thanks for adjustments with the EMR system at the hospital. We pray for the new administrative tools and processes that Yong is teaching the hospital admin staff and department leaders.*
