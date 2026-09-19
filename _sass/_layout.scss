@@ -106,10 +106,17 @@
 .card .meta {
   padding: 1.5rem;
   display: flex;
-
-  flex: 1;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.meta a:link,
+.meta a:visited,
+.meta a:active {
+  color: var(--link-color);
+}
+.meta a:hover {
+  color: var(--link-color-hover);
 }
 
 .page-find {
