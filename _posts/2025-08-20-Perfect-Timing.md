@@ -1,7 +1,7 @@
 ---
 layout: post
 title: God’s perfect timing
-summary: "We have seen God bringing hope, joy, freedom and encouragement- through motorbike prayer rides and also through discipleship."
+summary: "Good memory being with Wendy's dad"
 tags: [mmc, family]
 
 folder: 2025-08/
