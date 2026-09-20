@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Completing journeys - on a motorbike and one within a faith community
+title: Completing journeys - on a motorbike
 summary: "We have seen God bringing hope, joy, freedom and encouragement- through motorbike prayer rides and also through discipleship."
 tags: [pcc]
 
