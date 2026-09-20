@@ -2,7 +2,7 @@
 layout: post
 title: God’s perfect timing
 summary: "We have seen God bringing hope, joy, freedom and encouragement- through motorbike prayer rides and also through discipleship."
-tags: [pcc]
+tags: [mmc, family]
 
 folder: 2025-08/
 photo1:
@@ -13,10 +13,6 @@ photo2:
   - thump: nursing-team-thump.jpg
     img: nursing-team.jpg
     cap: "The MMCC nurse team gathered together at the end of the week for encouragement and prayer."
-photo3:
-  - thump: spirit-thump.jpg
-    img: spirit.jpg
-    cap: "The spiritual formation group of both Khmer and international christian workers, gave opportunity for exploring ways to grow in our identity in Christ. We were also discerning the unique vision that the Lord Jesus gives us to both serve and be a blessing in our communities. Our final weekend of celebration included presentations of this, and some were done very creatively."
 ---
 
 >*“The Lord is my strength and my shield; my heart trusts in him, and he helps me. My heart leaps for joy, and with my song I praise him.”* Psalm 28:7
