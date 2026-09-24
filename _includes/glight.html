@@ -1,7 +1,7 @@
 {% assign img-path  = "/assets/img/" | append: page.folder %}
 {% assign photo_list = include.images %}
 
-{% for img in photo_list %}
+{% for photo in photo_list %}
   {% assign next_index = forloop.index0 | plus: 1 %}
   {% assign next_photo = photo_list[next_index] %}
   {% assign remainder = forloop.index | modulo: 2 %}
@@ -11,26 +11,26 @@
   {% endif %}
 
   <div class="gallery-container">
-    <a href="{{ img-path | append: img.img }}"
+    <a href="{{ img-path | append: photo.photo}}"
       class="glightbox2"
-      data-glightbox="title: {{ img.cap }}"
+      data-glightbox="title: {{ photo.cap }}"
       data-zoomable="false" >
-      {% if img.thump %}
-      <img src="{{ img-path | append: img.thump  }}" alt="image thump" />
+      {% if photo.thumbnail %}
+      <img src="{{ img-path | append: photo.thumbnail  }}" alt="thumbnail" />
       {% else %}
-      <img src="{{ img-path | append: img.img  }}" alt="image 1" />
+      <img src="{{ img-path | append: photo.photo }}" alt="image 1" />
       {% endif %}
-      <p class="caption">{{ img.cap }}</p>
+      <p class="caption">{{ photo.cap }}</p>
     </a>
     {% if next_photo %}
-    <a href="{{ img-path | append: next_photo.img }}"
+    <a href="{{ img-path | append: next_photo.photo}}"
       class="glightbox2"
       data-glightbox="title: {{ next_photo.cap }}"
       data-zoomable="false" >
-      {% if next_photo.thump %}
-      <img src="{{ img-path | append: next_photo.thump }}" alt="image thump 2" />
+      {% if next_photo.thumbnail %}
+      <img src="{{ img-path | append: next_photo.thumbnail }}" alt="thumbnail 2" />
       {% else %}
-      <img src="{{ img-path | append: next_photo.img }}" alt="image 2" />
+      <img src="{{ img-path | append: next_photo.photo}}" alt="image 2" />
       {% endif %}
       <p class="caption">{{ next_photo.cap }}</p>
     </a>
