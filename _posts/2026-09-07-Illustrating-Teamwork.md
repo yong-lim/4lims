@@ -6,8 +6,8 @@ tags: [mmc]
 
 folder: 2026-09/
 photo:
-  - thump: Beauty-in-Flower-thump.jpg
-    img: Beauty-in-Flower.jpg
+  - thumbnail: flower-thumbnail.jpeg 
+    photo: flower.jpg
     cap: "We took this photo right outside our house- it's a stunning water lilly"
 ---
 
