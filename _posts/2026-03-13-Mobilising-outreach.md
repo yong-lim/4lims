@@ -6,12 +6,12 @@ tags: [pcc]
 
 folder: 2026-03/
 group1:
-  - thump: group1-thump.jpeg
-    img: group1.jpeg
+  - thumbnail: group1-thump.jpeg
+    photo: group1.jpeg
     cap: "The nurse team from MMCC- stronger together"  
 group2:
-  - thump: group2-thump.jpeg
-    img: group2.jpeg
+  - thumbnail: group2-thump.jpeg
+    photo: group2.jpeg
     cap: "The MMCC medical outreach team to displaced people"
 ---
 
