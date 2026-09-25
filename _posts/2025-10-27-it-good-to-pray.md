@@ -6,16 +6,16 @@ tags: [pcc]
 
 folder: 2025-10/
 photo1:
-  - thump: knee-thump.jpg
-    img: knee.jpg
+  - thumbnail: knee-320x320.jpeg
+    photo: knee.jpg
     cap: "After knee surgery! Waiting at the airport to return to Cambodia."  
 photo2:
-  - thump: leading-worship-thump.jpg
-    img: lading-worship.jpg
+  - thumbnail: leading-worship-thump.jpg
+    photo: leading-worship.jpg
     cap: "Wendy leading worship during the opening retreat of the Journey Deeper cohort."
 photo3:
-  - thump: pray-circle-thump.jpg
-    img: pray-circle.jpg
+  - thumbnail: pray-circle-thump.jpg
+    photo: pray-circle.jpg
     cap: "Prayer circle riders earlier this month praying along border areas."
 ---
 
