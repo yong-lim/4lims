@@ -8,8 +8,10 @@ folder: 2025-05/
 photo1:
   - thumbnail: self-by-river-thump.jpg
     photo: self-by-river.jpeg
+    caption: "Look at the journey ahead"  
   - thumbnail: crosing-ferry-thump.jpg
     photo: crosing-ferry.jpeg
+    caption: "Crossing the ferry"  
   - thumbnail: breakfast-thump.jpg
     photo: breakfast.jpeg
     caption: "The motorbike prayer circle riders on the latest ride in early May."  
