@@ -8,11 +8,11 @@ folder: 2025-08/
 photo1:
   - thumbnail: memory-thump.jpg
     photo: memory.jpg
-    cap: "A happy memory for us with Wendy's dad taken a few years ago on Budleigh beach."  
+    caption: "A happy memory for us with Wendy's dad taken a few years ago on Budleigh beach."  
 photo2:
   - thumbnail: nursing-team-thump.jpg
     photo: nursing-team.jpg
-    cap: "The MMCC nurse team gathered together at the end of the week for encouragement and prayer."
+    caption: "The MMCC nurse team gathered together at the end of the week for encouragement and prayer."
 ---
 
 >*“The Lord is my strength and my shield; my heart trusts in him, and he helps me. My heart leaps for joy, and with my song I praise him.”* Psalm 28:7

@@ -6,23 +6,23 @@ tags: [pcc]
 
 folder: 2023-11/
 g1:
-  - thump: pray-for-family-thump.jpg
-    img: pray-for-family.jpg
-    cap: "Praying for a family near Prey Vihea"
-  - thump: church-in-Anlong-Veng-thump.jpg
-    img: church-in-Anlong-Veng.jpg
-    cap: "After church service sharing time in Anlong Veng"
+  - thumbnail: pray-for-family-thump.jpg
+    photo: pray-for-family.jpg
+    caption: "Praying for a family near Prey Vihea"
+  - thumbnail: church-in-Anlong-Veng-thump.jpg
+    photo: church-in-Anlong-Veng.jpg
+    caption: "After church service sharing time in Anlong Veng"
     
 g2:
-  - thump: pray-over-new-land-thump.jpg
-    img: pray-over-new-land.jpg
-    cap: "Praying over new land"
-  - thump: take-a-ferry-thump.jpg
-    img: take-a-ferry.jpg
-    cap: "Taking a ferry crossing the river"
-  - thump: welding-training-center-thump.jpg
-    img: welding-training-center.jpg
-    cap: "Pray with missionary friends in a welding training centre in Siem Reap"
+  - thumbnail: pray-over-new-land-thump.jpg
+    photo: pray-over-new-land.jpg
+    caption: "Praying over new land"
+  - thumbnail: take-a-ferry-thump.jpg
+    photo: take-a-ferry.jpg
+    caption: "Taking a ferry crossing the river"
+  - thumbnail: welding-training-center-thump.jpg
+    photo: welding-training-center.jpg
+    caption: "Pray with missionary friends in a welding training centre in Siem Reap"
 ---
 
 >*"Give praise to the Lord, proclaim his name; make known among the nations what he has done."*<br>1 Chronicles 16:8

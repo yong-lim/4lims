@@ -8,15 +8,15 @@ folder: 2025-10/
 photo1:
   - thumbnail: knee-320x320.jpeg
     photo: knee.jpg
-    cap: "After knee surgery! Waiting at the airport to return to Cambodia."  
+    caption: "After knee surgery! Waiting at the airport to return to Cambodia."  
 photo2:
   - thumbnail: leading-worship-thump.jpg
     photo: leading-worship.jpg
-    cap: "Wendy leading worship during the opening retreat of the Journey Deeper cohort."
+    caption: "Wendy leading worship during the opening retreat of the Journey Deeper cohort."
 photo3:
   - thumbnail: pray-circle-thump.jpg
     photo: pray-circle.jpg
-    cap: "Prayer circle riders earlier this month praying along border areas."
+    caption: "Prayer circle riders earlier this month praying along border areas."
 ---
 
 >*“I urge, then, first of all, that petitions, prayers, intercession and thanksgiving be made for all people— for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.”* I Timothy 2:1-2

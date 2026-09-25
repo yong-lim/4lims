@@ -8,7 +8,7 @@ folder: 2026-04/
 images: 
   - thumbnail: what-a-wonderful-world-thump.jpg
     photo: what-a-wonderful-world.jpg
-    cap: "What a Wonderful World"
+    caption: "Lyric to the 'What a Wonderful World' song"
 ---
 
 >*"Would each one of you, our prayer partners and supporters send us what is beauty in your life?"*

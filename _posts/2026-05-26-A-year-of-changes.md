@@ -8,14 +8,14 @@ folder: 2026-05/
 images: 
   - thumbnail: dummy-320x320.jpeg
     photo: dummy.jpg
-    cap: "Practicing with dummy"
+    caption: "Practicing with dummy"
 images2:
   - thumbnail: gratuation-320x320.jpeg
     photo: gratuation.jpeg
-    cap: "Gratuation photo"
+    caption: "Gratuation photo"
   - thumbnail: gratuation2-320x320.jpeg
     photo: gratuation2.jpeg
-    cap: "Gratuation photo #2"
+    caption: "Gratuation photo #2"
 ---
 
 >*"Many are the plans in a person’s heart, but it is the Lord’s purpose that prevails."* Provers 19:21

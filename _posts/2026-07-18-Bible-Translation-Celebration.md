@@ -8,11 +8,11 @@ folder: 2026-07/
 photo1:
   - thumbnail: Yong+Didi-thump.JPG
     photo: Yong+Didi.JPG
-    cap: "Me and Didi at the first Bible celebration 10 years ago"
+    caption: "Me and Didi at the first Bible celebration 10 years ago"
 photo2:
   - thumbnail: spiritual-formation-thump.jpg
     photo: spiritual-formation.jpg
-    cap: "Celebrating completion of the spiritual formation"
+    caption: "Celebrating completion of the spiritual formation"
 ---
 
 >*"GTherefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age."* Matthew 28:19-20

@@ -1,21 +1,27 @@
 ---
 layout: post
-title: October 2023 newsletter
+title: Oct 2023 newsletter - MMC's women outreach
 summary: MMC's women outreach to a Bible school in Prey Chhor.
 tags: [mmc]
 
 folder: 2023-10/
 photos-1:
-  - img: Bible-school-outreach.jpeg
-    cap: "Medical outreach at the Bible school"
-  - img: mmc-staff-workin.jpeg
-    cap: "the outreach team and bible school students and staff"
-  - img: Pastor-Koy.jpeg
-    cap: "Pastor Koi with his beautiful 2 stringed Khmer fiddle or ‘tro’"
+  - photo: Bible-school-outreach.jpeg
+    thumbnail: Bible-school-outreach-320x320.jpeg
+    caption: "Medical outreach at the Bible school"
+  - photo: mmc-staff-working.jpeg
+    thumbnail: mmc-staff-working320x320.jpeg
+    caption: "the outreach team and bible school students and staff"
+  - photo: Pastor-Koy.jpeg
+    thumbnail: Pastor-Koy-320x320.jpeg
+    caption: "Pastor Koi with his beautiful 2 stringed Khmer fiddle or ‘tro’"
 photos-2:
-  - img: group-one.jpeg
-  - img: group-two.jpeg
-  - img: group-three.jpeg
+  - photo: group-one.jpeg
+    thumbnail: group-one-320x320.jpeg
+  - photo: group-two.jpeg
+    thumbnail: group-two-320x320.jpeg
+  - photo: group-three.jpeg
+    thumbnail: group-three-320x320.jpeg
 ---
 
 >*"Do not merely listen to the word, and so deceive yourselves. Do what it says. …whoever looks intently into the perfect law that gives freedom, and continues in it—not forgetting what they have heard, but doing it—they will be blessed in what they do."* James 1:21-25

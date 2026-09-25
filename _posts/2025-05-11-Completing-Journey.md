@@ -12,15 +12,15 @@ photo1:
     photo: crosing-ferry.jpeg
   - thumbnail: breakfast-thump.jpg
     photo: breakfast.jpeg
-    cap: "The motorbike prayer circle riders on the latest ride in early May."  
+    caption: "The motorbike prayer circle riders on the latest ride in early May."  
 photo2:
   - thumbnail: Wendy-journey-deeper-320x320.jpeg
     photo: Wendy-journey-deeper.jpg
-    cap: "Wendy was meeting with 5 women over the year"
+    caption: "Wendy was meeting with 5 women over the year"
 photo3:
   - thumbnail: spirit-320x320.jpeg
     photo: spirit.jpg
-    cap: "The spiritual formation group"
+    caption: "The spiritual formation group"
 ---
 
 >*“Your word is a lamp to guide my feet and a light for my path.”* Psalm 119:104-105

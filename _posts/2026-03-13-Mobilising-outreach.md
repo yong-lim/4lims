@@ -8,11 +8,11 @@ folder: 2026-03/
 group1:
   - thumbnail: group1-thump.jpeg
     photo: group1.jpeg
-    cap: "The nurse team from MMCC- stronger together"  
+    caption: "The nurse team from MMCC- stronger together"  
 group2:
   - thumbnail: group2-thump.jpeg
     photo: group2.jpeg
-    cap: "The MMCC medical outreach team to displaced people"
+    caption: "The MMCC medical outreach team to displaced people"
 ---
 
 >*"Let all who seek God’s help be encouraged. For the Lord hears the cries of the needy"* Psalms 69:32-33
