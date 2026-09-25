@@ -5,7 +5,9 @@
     {% assign tg = tag[0] | replace: " ", "%20" %}
     <li>
       <a href="/tag/{{ tag[0] }}/"
-        {% if page.url contains tg %}class="tag-current"{% endif %}>
+        {% if page.url contains tg %}
+          class="tag-current"
+        {% endif %} >
         {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
       </a>
     </li>

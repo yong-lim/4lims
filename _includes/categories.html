@@ -21,9 +21,10 @@
       {% assign url = "/category/" | append: category | append: "/" %}
       <li>
         <a href="{{ url }}"
-           {% if page.url == url %}class="tag-current"{% endif %}
-           class="{% if page.url == {{ url }} %}active{% endif %}" >
-           {{ category | replace:'-', ' ' }} ({{ count }})
+          {% if page.url == url %}
+            class="tag-current"
+          {% endif %} >
+          {{ category | replace:'-', ' ' }} ({{ count }})
         </a>
       </li>
     {% endfor %}

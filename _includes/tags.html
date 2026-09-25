@@ -7,8 +7,10 @@
       {% assign url = "/tag/" | append: tg | append: "/" %}
       <li>
          <a href="/tag/{{ tag[0] }}/"
-            {% if page.url == url %}class="tag-current"{% endif %}>
-            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+          {% if page.url == url %}
+            class="tag-current"
+          {% endif %} >
+          {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
          </a>
       </li>
       {% endfor %}
