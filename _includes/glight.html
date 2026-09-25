@@ -20,7 +20,7 @@
       {% else %}
       <img src="{{ img-path | append: photo.photo }}" alt="image 1" />
       {% endif %}
-      <p class="caption">{{ photo.caption | truncatewords: 5 }}...</p>
+      <p class="caption">{{ photo.caption | truncatewords: 5 }}</p>
     </a>
     {% if next_photo %}
     <a href="{{ img-path | append: next_photo.photo}}"
