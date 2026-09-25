@@ -6,8 +6,8 @@ tags: [pcc]
 
 folder: 2026-04/
 images: 
-  - thump: what-a-wonderful-world-thump.jpg
-    img: what-a-wonderful-world.jpg
+  - thumbnail: what-a-wonderful-world-thump.jpg
+    photo: what-a-wonderful-world.jpg
     cap: "What a Wonderful World"
 ---
 
