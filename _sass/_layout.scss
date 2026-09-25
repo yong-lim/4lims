@@ -15,10 +15,10 @@
   text-align: center;
 }
 
-.h-italic {
-  font-family: "Lora";
-  font-style: italic;
-}
+/* .h-italic { */
+  /* font-family: "Lora"; */
+  /* font-style: italic; */
+/* } */
 
 @supports (display:grid) {
   .card {
@@ -71,8 +71,8 @@
   text-decoration: none;
   //position: relative;
   //top: 0;
-  // color: inherit;
-  color: #2e3440;
+  /* color: inherit; */
+  /* color: var(--text-color); */
   transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   &:hover {
     transform: scale(1.05);
@@ -85,29 +85,47 @@
   background-position: center center;
 }
 
-.card a {
-  text-decoration: none;
-}
+/* .card a { */
+  /* text-decoration: none; */
+/* } */
 
-.card p {
-  font-size: 0.9rem;
-}
+/* .card p { */
+  /* font-size: 0.9rem; */
+  /* color: #2e3440; */
+/* } */
 
-.card h2 {
-  font-size: 1.3rem;
-  color: #2e3440;
-  margin: 0;
-}
+/* .card h2 { */
+  /* font-size: 1.3rem; */
+  /* color: #2e3440; */
+  /* margin: 0; */
+/* } */
 
-.card time {
-  text-transform: uppercase;
-}
+/* .card time { */
+  /* text-transform: uppercase; */
+/* } */
 
 .card .meta {
   padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  color: var(--text-color);
+  h2 {
+    font-family: "Lora";
+    font-style: italic;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin: 0;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  time {
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 
 .meta a:link,
