@@ -1,6 +1,7 @@
 <article role="article" class="post">
    {% assign tags = site.tags | sort %}
-   <ul style="column-count: 3; list-style: none;  justify-items: center;">
+   <!--<ul style="column-count: 3; list-style: none;  justify-items: center;">-->
+   <ul>
       {% for tag in tags %}
       {% assign tg = tag[0] | replace: " ", "%20" %}
       {% assign url = "/tag/" | append: tg | append: "/" %}
