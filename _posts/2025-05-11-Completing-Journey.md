@@ -6,21 +6,21 @@ tags: [pcc]
 
 folder: 2025-05/
 photo1:
-  - thump: self-by-river-thump.jpg
-    img: self-by-river.jpeg
-  - thump: crosing-ferry-thump.jpg
-    img: crosing-ferry.jpeg
-  - thump: breakfast-thump.jpg
-    img: breakfast.jpeg
+  - thumbnail: self-by-river-thump.jpg
+    photo: self-by-river.jpeg
+  - thumbnail: crosing-ferry-thump.jpg
+    photo: crosing-ferry.jpeg
+  - thumbnail: breakfast-thump.jpg
+    photo: breakfast.jpeg
     cap: "The motorbike prayer circle riders on the latest ride in early May."  
 photo2:
-  - thump: Wendy-journey-deeper-thump.jpg
-    img: Wendy-journey-deeper.jpgphoto2
-    cap: "Wendy was meeting with 5 women over the year, encouraging them in their deepening spiritual journey in Jesus. This photo was during our final retreat together. (The photo is blurred to protect their identities as some work with sensitive communities where their faith cannot be openly shared)."
+  - thumbnail: Wendy-journey-deeper-320x320.jpeg
+    photo: Wendy-journey-deeper.jpg
+    cap: "Wendy was meeting with 5 women over the year"
 photo3:
-  - thump: spirit-thump.jpg
-    img: spirit.jpg
-    cap: "The spiritual formation group of both Khmer and international christian workers, gave opportunity for exploring ways to grow in our identity in Christ. We were also discerning the unique vision that the Lord Jesus gives us to both serve and be a blessing in our communities. Our final weekend of celebration included presentations of this, and some were done very creatively."
+  - thumbnail: spirit-320x320.jpeg
+    photo: spirit.jpg
+    cap: "The spiritual formation group"
 ---
 
 >*“Your word is a lamp to guide my feet and a light for my path.”* Psalm 119:104-105
@@ -39,9 +39,13 @@ Secondly, Wendy gathered at the start of May at a hotel in Phnom Penh to complet
   images=page.photo2
 -%}
 
+_Wendy was meeting with 5 women over the year, encouraging them in their deepening spiritual journey in Jesus. This photo was during our final retreat together. (The photo is blurred to protect their identities as some work with sensitive communities where their faith cannot be openly shared)._
+
 {%- include glight.html 
   images=page.photo3
 -%}
+
+_The spiritual formation group of both Khmer and international christian workers, gave opportunity for exploring ways to grow in our identity in Christ. We were also discerning the unique vision that the Lord Jesus gives us to both serve and be a blessing in our communities. Our final weekend of celebration included presentations of this, and some were done very creatively._
 
 <br>
 Thank you for your ongoing journey praying with us here in Cambodia. We will be spending time in the UK during June and July, if you’d like to catch up with us in person. We have some dates already booked and others in discussion, but we anticipate being mostly London based.
