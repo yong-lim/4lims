@@ -6,15 +6,15 @@ tags: [mmc]
 
 folder: 2026-05/
 images: 
-  - thump: dummy-thump.jpg
-    img: dummy.jpg
+  - thumbnail: dummy-320x320.jpeg
+    photo: dummy.jpg
     cap: "Practicing with dummy"
 images2:
-  - thump: gratuation-thump.jpeg
-    img: gratuation.jpeg
+  - thumbnail: gratuation-320x320.jpeg
+    photo: gratuation.jpeg
     cap: "Gratuation photo"
-  - thump: gratuation2-thump.jpeg
-    img: gratuation2.jpeg
+  - thumbnail: gratuation2-320x320.jpeg
+    photo: gratuation2.jpeg
     cap: "Gratuation photo #2"
 ---
 
