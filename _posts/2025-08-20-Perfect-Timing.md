@@ -6,12 +6,12 @@ tags: [mmc, family]
 
 folder: 2025-08/
 photo1:
-  - thump: memory-thump.jpg
-    img: memory.jpg
+  - thumbnail: memory-thump.jpg
+    photo: memory.jpg
     cap: "A happy memory for us with Wendy's dad taken a few years ago on Budleigh beach."  
 photo2:
-  - thump: nursing-team-thump.jpg
-    img: nursing-team.jpg
+  - thumbnail: nursing-team-thump.jpg
+    photo: nursing-team.jpg
     cap: "The MMCC nurse team gathered together at the end of the week for encouragement and prayer."
 ---
 
