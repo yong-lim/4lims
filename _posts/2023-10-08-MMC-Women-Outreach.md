@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oct 2023 newsletter - MMC's women outreach
+title: MMC's women outreach
 summary: MMC's women outreach to a Bible school in Prey Chhor.
 tags: [mmc]
 
