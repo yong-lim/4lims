@@ -6,22 +6,22 @@ tags: [pcc]
 
 folder: 2023-11/
 g1:
-  - thumbnail: pray-for-family-thump.jpg
-    photo: pray-for-family.jpg
+  - photo: pray-for-family.jpg
+    thumbnail: pray-for-family-320x320.jpeg
     caption: "Praying for a family near Prey Vihea"
-  - thumbnail: church-in-Anlong-Veng-thump.jpg
-    photo: church-in-Anlong-Veng.jpg
+  - photo: church-in-Anlong-Veng.jpg
+    thumbnail: church-in-Anlong-Veng-320x320.jpeg
     caption: "After church service sharing time in Anlong Veng"
     
 g2:
-  - thumbnail: pray-over-new-land-thump.jpg
-    photo: pray-over-new-land.jpg
+  - photo: pray-over-new-land.jpg
+    thumbnail: pray-over-new-land-320x320.jpeg
     caption: "Praying over new land"
-  - thumbnail: take-a-ferry-thump.jpg
-    photo: take-a-ferry.jpg
+  - photo: take-a-ferry.jpg
+    thumbnail: take-a-ferry-320x320.jpeg
     caption: "Taking a ferry crossing the river"
-  - thumbnail: welding-training-center-thump.jpg
-    photo: welding-training-center.jpg
+  - photo: welding-training-center.jpg
+    thumbnail: welding-training-center-320x320.jpeg
     caption: "Pray with missionary friends in a welding training centre in Siem Reap"
 ---
 
