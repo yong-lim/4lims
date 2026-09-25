@@ -6,12 +6,15 @@ tags: [family]
 
 folder: 2023-08/
 photos:
-  - img: Jacob-Nikki.jpg
-    cap: "Our nephew and his new wife at their college graduation. We were so glad to be able to join so many family celebrations during our US visit."  
-  - img: Ty-family.jpg
-    cap: "Ty and family, visiting Cambodia when we landed back from UK. We ate together one night at a local market. It was too short of a visit."
-  - img: MMC-graduation.jpg
-    cap: "We recently celebrated our latest graduate doctors at MMCC who have completed the Family Medicine residency training programme and one who completed the Women’s Health Residency."
+  - photo: Jacob-Nikki.jpg
+    thumbnail: Jacob-Nikki-320x320.jpeg
+    caption: "Our nephew and his new wife at their college graduation. We were so glad to be able to join so many family celebrations during our US visit."  
+  - photo: Ty-family.jpg
+    thumbnail: Ty-family-320x320.jpeg
+    caption: "Ty and family, visiting Cambodia when we landed back from UK. We ate together one night at a local market. It was too short of a visit."
+  - photo: MMC-graduation.jpg
+    thumbnail: mmc-graduates-320x320.jpeg
+    caption: "We recently celebrated our latest graduate doctors at MMCC who have completed the Family Medicine residency training programme and one who completed the Women’s Health Residency."
 ---
 
 >*"‘the Lord has told you what is good, and this is what he requires of you: to do what is right, to love mercy, and to walk humbly with your God."* Micah 6:8
