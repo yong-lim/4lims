@@ -8,7 +8,7 @@ folder: 2026-09/
 photo:
   - thumbnail: flower-thumbnail.jpeg 
     photo: flower.jpg
-    cap: "We took this photo right outside our house- it's a stunning water lilly"
+    caption: "We took this photo right outside our house- it's a stunning water lilly"
 ---
 
 >*"If one part suffers, every part suffers with it; if one part is honored, every part rejoices with it. Now you are the body of Christ, and each one of you is a part of it."* 1 Corinthians 12: 26-27
