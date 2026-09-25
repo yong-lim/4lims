@@ -6,12 +6,12 @@ tags: [pcc]
 
 folder: 2026-07/
 photo1:
-  - thump: Yong+Didi-thump.JPG
-    img: Yong+Didi.JPG
+  - thumbnail: Yong+Didi-thump.JPG
+    photo: Yong+Didi.JPG
     cap: "Me and Didi at the first Bible celebration 10 years ago"
 photo2:
-  - thump: spiritual-formation-thump.jpg
-    img: spiritual-formation.jpg
+  - thumbnail: spiritual-formation-thump.jpg
+    photo: spiritual-formation.jpg
     cap: "Celebrating completion of the spiritual formation"
 ---
 
