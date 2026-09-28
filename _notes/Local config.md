@@ -2,7 +2,7 @@
 summary: "Configure a local config for git"
 layout: project
 date: 2022-12-10
-categories: [git, github]
+categories: [github]
 ---
 Commands for git local
 

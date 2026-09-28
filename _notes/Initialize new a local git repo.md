@@ -1,7 +1,7 @@
 ---
 summary: "Initialize a local git after a repo is created on github"
 layout: project
-categories: [git]
+categories: [github]
 date: 2024-08-07
 ---
 

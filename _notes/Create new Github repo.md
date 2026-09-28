@@ -2,7 +2,7 @@
 layout: project
 summary: "These are the steps to create a new github repository..."
 date: 2024-07-11
-categories: [git, github]
+categories: [github]
 new-repo: "/assets/img/creat-new-github-repository/GitHub_New_repository.jpg"
 ---
 
