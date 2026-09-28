@@ -43,12 +43,6 @@ Commit --interactive:
 jj commit -i
 ```
 
-Move bookmark master to @-:
-``` bash
-jj tug
-```
-
-
 ### Configure settings:
 
 ``` shell
@@ -60,7 +54,8 @@ jj config edit --user
 
 #### Misc commands:
 ``` shell
-jj git push 			# push to GitHub 
+jj tug                            # move bookmark master to @-, see aliases
+jj git push                       # push to GitHub 
 jj git push --bookmark master
 
 # increase the file size limits.
