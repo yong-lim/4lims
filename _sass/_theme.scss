@@ -282,14 +282,6 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;
   -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
   box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-  ul {
-    column-count: 3;
-    list-style: none;
-    justify-items: center;
-    li a:hover {
-      text-decoration: underline wavy var(--hr-color);
-    }
-  }
 }
 
 .post-title,
