@@ -104,11 +104,6 @@
 //   text-transform: uppercase;
 // }
 
-.post-card-h2 {
-  font-family: "Lora";
-  font-style: italic;
-}
-
 .card .meta {
   padding: 1.5rem;
   display: flex;
@@ -116,8 +111,8 @@
   flex-direction: column;
   color: var(--text-color);
   h2 {
-    // font-family: "Lora";
-    // font-style: italic;
+    font-family: "Lora";
+    font-style: italic;
     font-size: 1.3rem;
     color: var(--text-color);
     margin: 0;
@@ -170,27 +165,28 @@ img {
     margin: 0.5rem 0;
 }
 
-nav {
-  ul {
-    list-style: none !important;
-    padding: 0;
-    text-align: center;
+// the nav is in _theme.scss
+// nav {
+//   ul {
+//     list-style: none !important;
+//     padding: 0;
+//     text-align: center;
 
-    li {
-      display: inline-block;
-    }
-  }
-  a, a:visited {
-    margin: 0.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: inherit;
-    font-size: 0.9rem;
-    font-weight: 500;
-    letter-spacing: .05em;
-    //opacity: 0.6;
-  }
-}
+//     li {
+//       display: inline-block;
+//     }
+//   }
+//   a, a:visited {
+//     margin: 0.5rem;
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     color: inherit;
+//     font-size: 0.9rem;
+//     font-weight: 500;
+//     letter-spacing: .05em;
+//     //opacity: 0.6;
+//   }
+// }
 
 .tag-current {
   text-decoration: underline var(--hr-color) 1.5px !important;
