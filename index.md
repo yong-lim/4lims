@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Yong & Wendy
+title: Our Newsletters & Journals
 desc: "This is our repository of our newsletters."
 ---
 {% include tags.html %}
