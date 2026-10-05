@@ -1,4 +1,4 @@
-<button aria-label="Toggle dark mode" aria-pressed="false" class="theme-toggle">
+<button id="themeToggle" aria-label="Toggle dark mode" aria-pressed="false" class="theme-toggle" onclick="toggleMode()">
   <svg class="icon-sun" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <circle cx="12" cy="12" r="5"></circle>
     <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -14,6 +14,8 @@
     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
   </svg>
 </button>
+
+<script src="{{ '/assets/js/toggle-mode.js' | relative_url }}"></script>
 
 <style>
 noscript .theme-toggle { display: none; }
@@ -35,6 +37,7 @@ noscript .theme-toggle { display: none; }
 .theme-toggle:hover {
   color: var(--links);
   outline: none;
+  transform: translate(-3px, -3px);
 }
 .theme-toggle:focus {
   outline: none;
@@ -44,17 +47,47 @@ noscript .theme-toggle { display: none; }
     margin: 0.5em;
   }
 }
+
+::view-transition-old(root) {
+  animation-delay: 500ms;
+}
+
+::view-transition-new(root) {
+  animation: circle-in 500ms;
+  /*animation-timing-function: linear(0, 0.234 11.8%, 0.403 18.4%, 0.624 24.7%, 0.999 33.3%, 0.76 39.9%, 0.705 42.6%, 0.687 45.2%, 0.703 47.7%, 0.753 50.3%, 0.999 57.7%, 0.89 61.8%, 0.865 63.6%, 0.857 65.3%, 0.865 67%, 0.887 68.8%, 0.999 74.5%, 0.957 77.5%, 0.944 80.2%, 0.954 82.7%, 1 88.2%, 0.988 91.9%, 1);*/
+}
+
+@keyframes move-in {
+  from { translate: 0 -100%; }
+  to   { translate: 0  0; }
+}
+
+@keyframes circle-in {
+  from { clip-path: circle(0% at 100% 0%); }
+  to   { clip-path: circle(120% at 50% 0%); }
+}
+
 </style>
 
-<script type="text/javascript">
+<!--<script type="text/javascript">
   window.addEventListener('load', themeChange);
   const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
   if (currentTheme)
     document.documentElement.setAttribute('data-theme', currentTheme);
 
   function themeChange() {
-    var button = document.querySelector('.theme-toggle');
+    const button = document.querySelector('.theme-toggle');
     if (!button) return;
+
+    updateIcon(document.documentElement.getAttribute('data-theme'));
+
+    button.addEventListener("click", () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const next = currentTheme === 'dark' ? 'light' : 'dark';
+      transition(next);
+      updateIcon(next);
+      localStorage.setItem('theme', next);
+    });
 
     function updateIcon(theme) {
       button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
@@ -62,23 +95,18 @@ noscript .theme-toggle { display: none; }
       button.querySelector('.icon-moon').style.display = theme === 'dark' ? 'none' : 'block';
     }
 
-    updateIcon(document.documentElement.getAttribute('data-theme'));
-
-    button.addEventListener('click', function (e) {
-      var currentTheme = document.documentElement.getAttribute('data-theme');
-      var next = currentTheme === 'dark' ? 'light' : 'dark';
-
-      transition();
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-      updateIcon(next);
-    });
-
-    function transition() {
+    function transition(next) {
+      if (!document.startViewTransition) {
+        document.documentElement.setAttribute('data-theme', next);
+      } else {
+        document.startViewTransition (() => {
+          document.documentElement.setAttribute('data-theme', next);
+        });
+      }
       document.documentElement.classList.add('transition');
       window.setTimeout(function () {
         document.documentElement.classList.remove('transition');
       }, 1000);
     }
   }
-</script>
+</script>-->
