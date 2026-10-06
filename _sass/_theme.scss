@@ -41,8 +41,8 @@ import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0
   --code-bg: light-dark(#f6f8fa, #4c566a);
   --hr-color: light-dark(#81a1c1, #81a1c1);
   --link-color: light-dark(#88c0d0, #88c0d0);
-  --link-color-hover:  oklch(68.7% .208 38.8);
-  // --link-color-hover: light-dark(#0969da, oklch(68.7% .208 38.8));
+  // --link-color-hover:  oklch(68.7% .208 38.8);
+  --link-color-hover: light-dark(#0969da, #0969da);
 
   --blockquote-border: light-dark(#5e81ac, #8fbcbb);
   --blockquote-color: light-dark(rgba(94, 129, 172, 0.75), rgba(143, 188, 187, 0.75));
@@ -283,6 +283,9 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;
   -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
   box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+  a:hover {
+    color: var(--link-color-hover);
+  }
 }
 
 .post-title,
@@ -353,6 +356,8 @@ tbody tr:nth-child(odd) th {
   text-decoration: underline wavy var(--hr-color) 1.5px;
   text-underline-offset: .2rem;
   background-color: var(--body-bg);
+
+  color: var(--link-color-hover);
 }
 
 small {
@@ -364,9 +369,9 @@ small {
   float: right;
   a,a:visited {
     color: inherit;
-
     &:hover {
-      color: inherit;
+      // color: inherit;
+      color: var(--link-color-hover);
       text-decoration: underline wavy var(--hr-color) 1.5px;
       text-underline-offset: .2rem;
     }
