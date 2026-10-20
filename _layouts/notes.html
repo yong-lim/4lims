@@ -8,11 +8,12 @@ layout: page
 
   <article role="article" class="card">
     <div class="meta">
+      <p>{{ note.categories }}</p>
       <a href="{{ site.baseurl }}{{ note.url }}">
         <h3>{{ note.title }}</h3>
       </a>
       <p>{{ note.summary }}</p>
-        <time class="date" datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%Y" }} &middot; {{ note.category }}</time>
+        <time class="date" datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%Y" }} &middot; {{ note.categories }}</time>
     </div>
   </article>
 
