@@ -361,7 +361,7 @@ tbody tr:nth-child(odd) th {
   text-underline-offset: .2rem;
   background-color: var(--body-bg);
 
-  color: var(--link-color-hover);
+  color: inherit;
 }
 
 small {
@@ -374,8 +374,8 @@ small {
   a,a:visited {
     color: inherit;
     &:hover {
-      // color: inherit;
-      color: var(--link-color-hover);
+      color: inherit;
+      // color: var(--link-color-hover);
       text-decoration: underline wavy var(--hr-color) 1.5px;
       text-underline-offset: .2rem;
     }
