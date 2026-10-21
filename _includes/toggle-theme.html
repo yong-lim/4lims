@@ -27,8 +27,10 @@ noscript .theme-toggle { display: none; }
   cursor: pointer;
   margin: 1em;
   position: fixed;
-  right: 0;
-  top: 0;
+  right: 2px;
+  top: -6px;
+  transition: 0.3s;
+  transform: translateX(8px);
   border: 2px transparent solid;
   outline: none;
   z-index: 999;
@@ -37,6 +39,8 @@ noscript .theme-toggle { display: none; }
 .theme-toggle:hover {
   color: var(--link-color);
   outline: none;
+  transform: translate3d(0, 6px, 0);
+  -webkit-transform: translate3d(0, 6px, 0);
   /*transform: translate(-3px, -3px);*/
 }
 .theme-toggle:focus {
