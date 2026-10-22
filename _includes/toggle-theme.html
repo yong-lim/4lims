@@ -15,7 +15,7 @@
   </svg>
 </button>
 
-<script src="{{ '/assets/js/toggle-mode.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/toggle-theme.js' | relative_url }}"></script>
 
 <style>
 noscript .theme-toggle { display: none; }
@@ -34,18 +34,18 @@ noscript .theme-toggle { display: none; }
   border: 2px transparent solid;
   outline: none;
   z-index: 999;
+  &:hover {
+    color: var(--link-color);
+    outline: none;
+    transform: translate3d(0, 6px, 0);
+    -webkit-transform: translate3d(0, 6px, 0);
+    /*transform: translate(-3px, -3px);*/
+  }
+  &:focus {
+    outline: none;
+  }
 }
 
-.theme-toggle:hover {
-  color: var(--link-color);
-  outline: none;
-  transform: translate3d(0, 6px, 0);
-  -webkit-transform: translate3d(0, 6px, 0);
-  /*transform: translate(-3px, -3px);*/
-}
-.theme-toggle:focus {
-  outline: none;
-}
 @media screen and (max-width: 600px) {
   .theme-toggle {
     margin: 0.5em;
