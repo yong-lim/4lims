@@ -30,17 +30,19 @@
   align-items: center;
   justify-content: center;
   z-index: 50;
+  &:hover {
+    color: var(--link-color);
+    border-color: var(--link-color);
+    transform: translate3d(0, -4px, 0);
+    -webkit-transform: translate3d(0, -2px, 0);
+  }
+  &:active {
+    color: var(--link-color);
+  }
 }
 .back-to-top.visible {
   opacity: 1;
   pointer-events: auto;
-}
-.back-to-top:hover {
-  color: var(--links);
-  /*background: #FFC300;*/
-  /*color: blue;*/
-  transform: translate3d(0, -4px, 0);
-  -webkit-transform: translate3d(0, -2px, 0);
 }
 @media screen and (max-width: 600px) {
   .back-to-top {
